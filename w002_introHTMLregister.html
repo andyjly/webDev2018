@@ -4,21 +4,42 @@
     <title>Register Page</title>
 </head>
 <body>
-    <form>
-        First Name: <input type="text"> <br>
-        Last Name: <input type="text"> <br>
-        Email: <input type="email" placeholder="example@sample.xxx" required="true"> <br>
-        Birthday: <input type="date"><br>
+    <!-- by default method="GET", used to have action="action.php" -->
+    <form >
+        First Name: <input type="text" name="firstname"> <br>
+        Last Name: <input type="text" name="lastname"> <br>
+        Email: <input type="email" placeholder="example@sample.xxx" required="true" name="email"> <br>
+        Password: <input type="password" min="5" name="password"> <br>
+        Birthday: <input type="date" name="birthday"><br>
         Gender: <br>
         <!-- Here we try make radio buttons for gender, make sure you give all same name so it knows they are together -->
-        <input type="radio" name="gender">Male<br>
-        <input type="radio" name="gender">Female<br>
-        <input type="radio" name="gender">Other<br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
         Pets: <br>
-        <input type="checkbox" value="Cat"> Cat <br>
-        <input type="checkbox" value="Dog"> Dog <br>
+        <input type="checkbox" value="Cat" name="cat"> Cat <br>
+        <input type="checkbox" value="Dog" name="dog"> Dog <br>
+        Cars: <br>
+        <!-- drop down menu -->
+        <select name="cars">
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="chevy" name="chevy">Chevy</option>
+            option
+        </select> <br>
         <input type="submit" value="Register!"> 
         <input type="reset">
     </form>
 </body>
 </html>
+
+<!-- This appears after you press enter -->
+<!-- 
+filelocation?
+firstname=bob
+&lastname=Hark
+&email=apple%40ob.com
+&password=12345
+&birthday=1989-04-28
+&gender=on&cat=Cat 
+&cars=chevy
+-->
