@@ -7,6 +7,12 @@
         <title>Sample HTML</title>
     </head>
     <body>
+        <p>A link example with a target of new tab</p>
+        <a href="https://google.com" target="_blank">GOOGLE</a>
+        <!-- let's link to a page we made -->
+        <p>a new page we made</p>
+        <a href="w002_introHTMLnew.html" title="new page"><h2>New Page</h2></a>
+        <a href="w002_introHTMLregister.html" title="register"><h2>Register</h2></a>
         <!-- We use a h1 tag, but the full line is called an h1 element -->
         <h1>Lorem Header 1</h1>
         <h6>Lorem Header 6</h6>
@@ -14,7 +20,7 @@
         <!-- Note that <b> and <i> have not been deprecated in HTML5. Their new use is to semantically represent styles (or intended presentation), whereas <strong> and <em> represent structure.  -->
 
         <p>Testing 
-        <b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        <strong>Lorem</strong> ipsum dolor sit amet, <em>consectetur</em> adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -29,5 +35,35 @@
         <p>Apple</p>
         <p>Apple</p>
 
+        <ol>
+            <li>Apple</li>
+                <ul>
+                    <li>Fuji</li>
+                    <!-- if you want spacing in between use br or hr -->
+                    <br> 
+                    <li>Honey</li>
+                    <!-- sample of an image and can also edit width and height -->
+                    <img src="https://storage.googleapis.com/zopnow-static/images/products/320/fresh-apple-red-delicious-v-500-g.png" alt="apple" width="50" height="50">
+                </ul>
+            <li>Pears</li>
+                <ul>
+                    <li>filler</li>
+                    <hr>
+                    <li>filler2</li>
+                </ul>
+            <li>Pineapple</li>
+        </ol>
+
+        <ul>
+            <li>Apple</li>
+            <li>Pears</li>
+            <li>Pineapple</li>
+        </ul>
+
     </body>
 </html>
+
+<!-- 
+If you noticed, our website is actually using a relative path, so we can only view it on our computer and it accesses the file on our computer. Relative to where our index.html page is
+
+ -->
