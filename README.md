@@ -1,4 +1,9 @@
-# Again?!
-I know what you guys are thinking and wondering why the heck I'm jumping back to another subject I supposedly dropped. I saw a motivational article and it got me wanting to give it another go. So here were go once again!
+# Web Development again from scratch!
+Back to web development again.
 
-The motivational article I stumbled upon is this one: https://hackernoon.com/learn-to-code-in-2018-get-hired-and-have-fun-along-the-way-b338247eed6a
+I made a new Github to keep my studies notes and things located in one spot and my more established well known github to host my projects instead. Keeps the clutter cleaner.
+
+## HTML
+- take the HTML Quiz from w3school here: https://www.w3schools.com/html/html_quiz.asp
+    - got an 82%, made some careless mistakes, but it helps to review what you don't know/remember
+    
