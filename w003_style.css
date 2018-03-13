@@ -34,7 +34,8 @@ body{
 }
 
 /* element, element : adding a comma and another element will apply to all */
-h2, p {
+
+h2, p{
 	/* background-color: yellow; */
 	/* You can use hex for colors */
     color: #AA4439;
@@ -59,6 +60,15 @@ h2 p {
 	color: rgba(130, 130, 130, 0.5);
 }
 
+/* element + element
+	means to select any element after that elemenent
+	in our case select any p element after h3 element
+ */
+/* hover if you move mouse over it applies the effects */
+h3 + p:hover {
+	background-color: yellow;
+}
+
 p {
     color: pink;
     text-align: left;
@@ -80,6 +90,14 @@ li{
 /* Below is how we access class 
 class is something that can be shared to a lot of different elements
 */
+
+
+/* A bit tired, but there's a 
+:first-child
+:last-child
+so if there's a lot of elements using a class, it affects only the first or last element using the class
+ */
+
 .something1{
 	border: 5px dashed green;
 	color: blue;
@@ -112,3 +130,16 @@ class is something that can be shared to a lot of different elements
 #div2{
 	background-color: rgba(189, 236, 182, 0.5);
 }
+
+
+/* There's also
+!important, overrides any of the css rules and takes precedence, not recommended
+ */
+
+
+/* 
+What selectors win out in Cascade depends on:
+-Specificity
+-Importance
+-Source Order
+ */

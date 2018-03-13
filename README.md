@@ -12,6 +12,8 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - Here's a site if you have CSS questions: https://css-tricks.com/
 	- almanac is useful to see a bunch of css properties
 - CSS Zen Garden has a lot of examples: http://www.csszengarden.com/
+- Specificity Calculator: https://specificity.keegan.st/
+	- useful if you want to see which selectors takes precedence
 
 
 ## Extras
