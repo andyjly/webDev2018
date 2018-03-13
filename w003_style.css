@@ -1,0 +1,114 @@
+/*Essentially Css is
+
+Selector {
+    Property: value;
+}
+
+
+Stands for Cascading style sheet
+
+basically cascading means taking the selector at the end
+takes last input for the selector
+
+e.g. having two <p> it will take the 2nd <p> style instead
+
+recommended to go from top to bottom when writing CSS easier to keep track
+e.g. body -> header -> nav -> etc
+*/
+
+
+/* 
+* symbolizes all elements and is found at the top 
+Note there's something called specificity and * has less than the h2, p below so it won't override the center align
+*/
+* {
+	text-align: right;
+}
+
+/* body is an element along with h2 and etc */
+body{
+	/* sets an image as background */
+	background-image: url(images/unsplashMountain.jpg);
+	/* makes it so whole image fits */
+	background-size: cover;
+}
+
+/* element, element : adding a comma and another element will apply to all */
+h2, p {
+	/* background-color: yellow; */
+	/* You can use hex for colors */
+    color: #AA4439;
+    text-align: center;
+    /* can also use RGB for colors include a if you want alpha*/
+    border:  5px solid rgba(255, 176, 170, 0.5);
+    /* using almanac from css tricks you you can view different pointers in this pen
+    https://codepen.io/chriscoyier/pen/uCwfB */
+    cursor: pointer;
+}
+
+/* 
+element1 > element2
+only styles if element1 is the parent of element2
+ */
+h2 > ul > li {
+	color: green;
+	display: block;
+}
+/* element element : means to select all p within h2 */
+h2 p {
+	color: rgba(130, 130, 130, 0.5);
+}
+
+p {
+    color: pink;
+    text-align: left;
+}
+
+p {
+	color:  red;
+}
+
+
+li{
+	/* gets rid of bullet points */
+	list-style: none; 
+	/* we use display so that our li elements go in one line, default it's on block */
+	display:  inline-block;
+}
+
+
+/* Below is how we access class 
+class is something that can be shared to a lot of different elements
+*/
+.something1{
+	border: 5px dashed green;
+	color: blue;
+}
+
+.something2{
+	border: 10px dashed green;
+	color: yellow;
+}
+
+.something3{
+	border: 5px dashed red;
+	color: orange;
+}
+
+.something4{
+	border: 10px dashed red;
+	color: white;
+}
+
+.active{
+	font-size: 2em;
+}
+
+/* id is similar to class except you can only use for one element */
+#div1{
+	background-color:  rgba(0, 0, 0, 0.5); 
+}
+
+#div2{
+	background-color: rgba(189, 236, 182, 0.5);
+}
