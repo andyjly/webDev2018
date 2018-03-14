@@ -18,8 +18,19 @@ p {
     /* font-family: "Times New Roman", Georgia; */
     /* website is a little slower because has to access stylesheet and then use it */
     font-family: 'Poiret One', cursive;
+    text-align: center;
 }
 
+img{
+	/* here you can use for images to wrap on the left or right */
+	float: right;
+}
+
+/* want at the bottom */
+footer{
+	clear: both;
+	text-align: center;
+}
 
 #one{
 	text-decoration: underline;
