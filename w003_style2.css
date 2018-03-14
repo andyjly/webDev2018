@@ -1,9 +1,35 @@
 /* You can make multiple stylesheets */
+/* Since the 1st style sheet is pretty cluttered, this time I'll work more on this */
 
 h2 {
     color: blue;
 }
 
+body{
+	background-color: rgba(189, 236, 182, 0.4);
+	font-size: 1.5em;
+}
 p {
     color: orange;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    /* if first font doesn't work, then goes to backup Georgia */
+    /* font-family: "Times New Roman", Georgia; */
+    /* website is a little slower because has to access stylesheet and then use it */
+    font-family: 'Poiret One', cursive;
+}
+
+
+#one{
+	text-decoration: underline;
+}
+
+/* line through isn't centered, I doubt I'll use */
+#two{
+	text-decoration: line-through;
+}
+
+#three{
+	text-transform: uppercase;
 }

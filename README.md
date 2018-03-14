@@ -18,6 +18,7 @@ I made a new Github to keep my studies notes and things located in one spot and 
 
 ## Extras
 - free hd pictures you can download: https://unsplash.com/
+- Fonts can be found at Google Fonts: https://fonts.google.com/
 
 ## Color Pickers
 - **NOTE** Picking the right colors so that humans can actually see the content is important!
