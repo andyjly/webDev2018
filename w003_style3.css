@@ -1,0 +1,21 @@
+h2{
+	color: blue;
+}
+
+.boxmodel {
+	border:  5px solid red;
+	display:  inline-block;
+	/* Here we'll explore box model from inside of content > padding > Border > Margin */
+	/* padding goes top, right, bottom, left; used if you want more space within the border */
+	padding: 5px 20px 5px 20px;
+	/* margin is used if you want more space outside of the border */
+	margin:  0px 20px;
+	/* shortcut is to just do 
+		margin: 0px 20px; 
+		top and bottom for 0px, left and right for 20px
+	 */
+	
+	/* can edit content like this */
+	width: 33px;
+	height: 55px;
+}
