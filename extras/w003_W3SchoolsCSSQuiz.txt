@@ -1,0 +1,180 @@
+W3Schools CSS Quiz
+CSS QUIZ	Points: 24 out of 25
+1. What does CSS stand for?
+
+You answered:
+
+Cascading Style Sheets
+ Correct Answer!
+
+2. What is the correct HTML for referring to an external style sheet?
+
+You answered:
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+ Correct Answer!
+
+3. Where in an HTML document is the correct place to refer to an external style sheet?
+
+You answered:
+
+In the <head> section
+ Correct Answer!
+
+4. Which HTML tag is used to define an internal style sheet?
+
+You answered:
+
+<style>
+ Correct Answer!
+
+5. Which HTML attribute is used to define inline styles?
+
+You answered:
+
+style
+ Correct Answer!
+
+6. Which is the correct CSS syntax?
+
+You answered:
+
+body {color: black;}
+ Correct Answer!
+
+7. How do you insert a comment in a CSS file?
+
+You answered:
+
+/* this is a comment */
+ Correct Answer!
+
+8. Which property is used to change the background color?
+
+You answered:
+
+background-color
+ Correct Answer!
+
+9. How do you add a background color for all <h1> elements?
+
+You answered:
+
+h1 {background-color:#FFFFFF;}
+ Correct Answer!
+
+10. Which CSS property is used to change the text color of an element?
+
+You answered:
+
+color
+ Correct Answer!
+
+11. Which CSS property controls the text size?
+
+You answered:
+
+font-size
+ Correct Answer!
+
+12. What is the correct CSS syntax for making all the <p> elements bold?
+
+You answered:
+
+p {font-weight:bold;}
+ Correct Answer!
+
+13. How do you display hyperlinks without an underline?
+
+You answered:
+
+a {text-decoration:none;}
+ Correct Answer!
+
+14. How do you make each word in a text start with a capital letter?
+
+You answered:
+
+You can't do that with CSS
+ Wrong Answer!
+
+15. Which property is used to change the font of an element?
+
+You answered:
+
+Both font-family and font can be used
+ Correct Answer!
+
+16. How do you make the text bold?
+
+You answered:
+
+font-weight:bold;
+ Correct Answer!
+
+17. How do you display a border like this:
+The top border = 10 pixels
+The bottom border = 5 pixels
+The left border = 20 pixels
+The right border = 1pixel?
+
+You answered:
+
+border-width:10px 1px 5px 20px;
+ Correct Answer!
+
+18. Which property is used to change the left margin of an element?
+
+You answered:
+
+margin-left
+ Correct Answer!
+
+19. When using the padding property; are you allowed to use negative values?
+
+You answered:
+
+No
+ Correct Answer!
+
+20. How do you make a list that lists its items with squares?
+
+You answered:
+
+list-style-type: square;
+ Correct Answer!
+
+21. How do you select an element with id "demo"?
+
+You answered:
+
+#demo
+ Correct Answer!
+
+22. How do you select elements with class name "test"?
+
+You answered:
+
+.test
+ Correct Answer!
+
+23. How do you select all p elements inside a div element?
+
+You answered:
+
+div p
+ Correct Answer!
+
+24. How do you group selectors?
+
+You answered:
+
+Separate each selector with a comma
+ Correct Answer!
+
+25. What is the default value of the position property?
+
+You answered:
+
+static
+ Correct Answer!

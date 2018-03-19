@@ -14,6 +14,9 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - CSS Zen Garden has a lot of examples: http://www.csszengarden.com/
 - Specificity Calculator: https://specificity.keegan.st/
 	- useful if you want to see which selectors takes precedence
+- You can minify your css at this site: https://www.cleancss.com/css-minify/
+- simple guide on how to use flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	- a game to learn flexbox: http://flexboxfroggy.com/
 
 
 ## Extras

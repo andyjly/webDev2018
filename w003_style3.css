@@ -2,6 +2,12 @@ h2{
 	color: blue;
 }
 
+p{
+	font-size: 30px;
+}
+
+
+/* currently unused */
 .boxmodel {
 	border:  5px solid red;
 	display:  inline-block;
@@ -19,3 +25,27 @@ h2{
 	width: 33px;
 	height: 55px;
 }
+
+#emTest{
+	/* em is how many times bigger than containing element, in our case its 3x */
+	font-size: 4em;
+}
+
+/* rem would be based on the html size */
+#remTest{
+	font-size: 4rem;
+}
+
+
+/* Took the css quiz at w3School
+Result:
+24 of 25
+96%
+
+You can be proud of yourself!
+
+Time Spent
+3:10
+
+Left sample of the quiz in Extras folder
+*/

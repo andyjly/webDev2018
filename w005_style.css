@@ -1,0 +1,21 @@
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid lightgreen;
+	border-right: 2px solid lightgreen;
+	width: 400px;
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+}
+
+/* flexbox easy to implement and gives you good control on positioning your containers */
+.container{
+	display:  flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
