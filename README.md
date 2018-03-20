@@ -17,6 +17,12 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - You can minify your css at this site: https://www.cleancss.com/css-minify/
 - simple guide on how to use flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 	- a game to learn flexbox: http://flexboxfroggy.com/
+- Browser Support: https://www.w3schools.com/cssref/css3_browsersupport.asp
+	- show's which browsers can support
+	- things like -moz-, -webkit- means not fully implemented on all sites, so need to include prefixes to make sure it works
+- Search if has browser support at: https://caniuse.com/
+- Transitions and transform is pretty fun: https://robots.thoughtbot.com/transitions-and-transforms
+	- the example they use uses scss so you'll have to convert to css
 
 
 ## Extras
