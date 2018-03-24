@@ -1,9 +1,21 @@
+/* 
+So here's my take on the assignment, after making a similar one, I decided to try play around 
+and give each part its own little transform of some kind.
+
+A guy took it a mile further and made a little animation found here
+https://codepen.io/thechaiienger/pen/OvmeKY
+I'll play around with something similar if I ever get to it
+ */
+
 h1 {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 }
 
 .robots {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .head, 
@@ -21,15 +33,17 @@ h1 {
 	height: 150px; 
 	border-radius: 200px 200px 0 0; 
 	margin-bottom: 10px;
+	transition: 1s ease-in-out;
 } 
 
 .eyes {
-	
+	display: flex;
 }
 
 .head:hover {
 	width: 300px;
-    transition: 1s ease-in-out;
+	transform: translateY(-15px);
+    background-color: red;
 }
 
 .upper_body { 
@@ -46,23 +60,44 @@ h1 {
 
 .left_arm { 
 	margin-right: 10px; 
+	transition: transform 1s;
 } 
+
+.left_arm:hover{
+	background-color: pink;
+	transform: rotate(1080deg);
+}
 
 .right_arm { 
 	margin-left: 10px; 
+	transition: transform 1s;
 } 
+
+.right_arm:hover{
+	transform-origin: left top;
+
+	background-color: blue;
+	transform: rotate(-720deg);
+}
 
 .torso { 
 	width: 200px; 
 	height: 200px;
 	border-radius: 0 0 50px 50px; 
+	transition: transform 1s;
 } 
+
+.torso:hover{
+	transform: scale(1.2);
+	background-color: orange;
+}
 
 .lower_body { 
 	width: 200px; 
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
+	display: flex;
 
 } 
 
@@ -87,6 +122,11 @@ h1 {
 .right_leg { 
 	margin-left: 30px; 
 }
+
+.right_leg:hover{
+	transform: rotate(-30deg);
+}
+
 
 .left_eye, .right_eye { 
 	width: 20px; 
