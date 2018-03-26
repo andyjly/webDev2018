@@ -24,6 +24,11 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - Transitions and transform is pretty fun: https://robots.thoughtbot.com/transitions-and-transforms
 	- the example they use uses scss so you'll have to convert to css
 
+## Bootstrap
+- A front end component library popularly used: http://getbootstrap.com/
+	- Make sure you know what to include to get it working!: http://getbootstrap.com/docs/4.0/getting-started/introduction/
+	- check out some of the main features here: http://getbootstrap.com/docs/4.0/components/alerts/
+
 
 ## Extras
 - free hd pictures you can download: https://unsplash.com/
