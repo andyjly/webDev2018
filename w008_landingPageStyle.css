@@ -1,0 +1,83 @@
+body{
+	/* This was where I decied to put my background image */
+	background-image: url("images/mhwConfrontation.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+body, html{
+	/* it seems if I didn't have this there will be a lot of white under */
+	width: 100%;
+	height: 100%;
+}
+
+/* header.landingPage{
+	height: 100%;
+
+} */
+
+hr{
+	/* this makes the hr line thicker */
+	border-width: 4px;
+	border-color: darksalmon;
+
+}
+
+.faded {
+	/* makes the text color for h1 to be faded */
+	color: rgba(255, 255, 255, 0.8); 
+}
+
+/* .container{
+	height: 100%;
+
+} */
+
+.slogan{
+	/* I wanted the text to be positioned a bit more from corner */
+	top: 2em;
+	left: 1em;
+}
+
+.findOutBtn{
+	/* This was how i positioned the button */
+	position:  absolute;
+	bottom: 1em;
+	right: 10%;
+}
+
+.btn{
+	/* applied some style to the button */
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-family: sans-serif;
+}
+
+.btn-xl{
+	/* gave some padding */
+	padding:  1rem 2rem;
+}
+
+.btn-info{
+	/* change the bootstrap default */
+	background-color: red;
+	border-color: darkred;
+}
+
+.btn-info:hover{
+	/* change default hover */
+	background-color: orange;
+	border-color: black;
+	color: black;
+	cursor: pointer;
+}
+
+#btnLink{
+	/* I can do this or I can use inherit */
+	/* text-decoration: none; */
+	/* inherit lets it grab from parent colors */
+	color:  inherit;
+	text-decoration: inherit;
+}

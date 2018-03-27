@@ -44,3 +44,8 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - **NOTE** Picking the right colors so that humans can actually see the content is important!
 - A useful color picker site that also show complementary colors: http://paletton.com/
 - Adobe Kuler tool is nice too: https://www.producthunt.com/alternatives/adobe-kuler
+
+
+### Simple projects so far
+- w006_robotBuddy: this little robot buddy made interactive with CSS
+- w008_landingPage: Going to make a simple landing page coming soon!
