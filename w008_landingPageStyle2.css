@@ -41,4 +41,27 @@ img:hover{
 	justify-content: center;
 }
 
+.btn{
+	position: fixed;
+	right: 2em;
+	bottom: 1em;
+}
 
+.btn-info{
+	/* change the bootstrap default */
+	background-color: red;
+	border-color: darkred;
+}
+
+.btn-info:hover{
+	/* change default hover */
+	background-color: orange;
+	border-color: black;
+	color: black;
+	cursor: pointer;
+}
+
+#btnLink{
+	color:  inherit;
+	text-decoration: inherit;
+}
