@@ -81,3 +81,13 @@ hr{
 	color:  inherit;
 	text-decoration: inherit;
 }
+
+#galleryPage a{
+	font-size: 0.75em;
+	text-decoration: none;
+	color: yellow;
+}
+
+#galleryPage a:hover{
+	color: red;
+}
