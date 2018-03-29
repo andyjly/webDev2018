@@ -39,7 +39,7 @@ I made a new Github to keep my studies notes and things located in one spot and 
 		2. enter in search bar and you can then copy the new web address above that appears
 			- https://images.unsplash.com/photo-1465014925804-7b9ede58d0d7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=8643532736ac5deabd0e1e653b7544a7
 - Fonts can be found at Google Fonts: https://fonts.google.com/
-- Mailchimp used to create a mailing form: https://mailchimp.com/
+- Mailchimp used to create a subscription form: https://mailchimp.com/
 	- after you sign up you go into
 		1. Create a List 
 		2. Go to Signup Forms
