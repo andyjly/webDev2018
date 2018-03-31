@@ -23,11 +23,18 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - Search if has browser support at: https://caniuse.com/
 - Transitions and transform is pretty fun: https://robots.thoughtbot.com/transitions-and-transforms
 	- the example they use uses scss so you'll have to convert to css
+- Sample of css animations you can use in your project: https://daneden.github.io/animate.css/
 
 ## Bootstrap
 - A front end component library popularly used: http://getbootstrap.com/
 	- Make sure you know what to include to get it working!: http://getbootstrap.com/docs/4.0/getting-started/introduction/
 	- check out some of the main features here: http://getbootstrap.com/docs/4.0/components/alerts/
+- There are a bunch of Bootstrap templates you can use created online:
+	- favorite BS template and themes: https://mdbootstrap.com/freebies/
+	- https://startbootstrap.com/template-categories/all/
+	- Premium Bootstrap themes, templates, UI Kits and more developed: https://www.creative-tim.com/
+	- http://mashup-template.com/templates.html
+	
 
 
 ## Extras
@@ -45,11 +52,22 @@ I made a new Github to keep my studies notes and things located in one spot and 
 		2. Go to Signup Forms
 		3. click on Embedded forms
 		4. Go to super slim and you can copy and paste code provided below
+- Properly indent code (can be used for minified css and etc): https://tools.arantius.com/tabifier
+- Want to know the trends?: https://insights.stackoverflow.com/trends
+	- then just click on one of the presets below
+- Statistics on Github: https://octoverse.github.com/
 
 ## Color Pickers
 - **NOTE** Picking the right colors so that humans can actually see the content is important!
 - A useful color picker site that also show complementary colors: http://paletton.com/
 - Adobe Kuler tool is nice too: https://www.producthunt.com/alternatives/adobe-kuler
+
+## Github
+- I recommend checking out https://github.com/
+	- if you want to make static pages: https://help.github.com/articles/user-organization-and-project-pages/#project-pages
+		- more or less click on configuring a publishing source for github pages
+		- create a repository (e.g. testsite2) then go to the settings and follow their instructions 
+		- finally you can view site at, for example: https://username.github.io/testsite2/
 
 
 ### Simple projects so far
