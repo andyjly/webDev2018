@@ -3,6 +3,8 @@ Back to web development again.
 
 I made a new Github to keep my studies notes and things located in one spot and my more established well known github to host my projects instead. Keeps the clutter cleaner.
 
+** NOTE Developers are problem solvers, not just coders **
+
 ## HTML
 - take the HTML Quiz from w3school here: https://www.w3schools.com/html/html_quiz.asp
     - got an 82%, made some careless mistakes, but it helps to review what you don't know/remember
@@ -35,8 +37,6 @@ I made a new Github to keep my studies notes and things located in one spot and 
 	- Premium Bootstrap themes, templates, UI Kits and more developed: https://www.creative-tim.com/
 	- http://mashup-template.com/templates.html
 	
-
-
 ## Extras
 - free hd pictures you can download: https://unsplash.com/
 	- note if you want to get url image link you do:
@@ -56,6 +56,9 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - Want to know the trends?: https://insights.stackoverflow.com/trends
 	- then just click on one of the presets below
 - Statistics on Github: https://octoverse.github.com/
+- Need to find an e-mail address?: https://hunter.io/
+- A really good resource if you're stuck: https://stackoverflow.com
+	- half of the developers would probably spend their time on Google looking up solutions
 
 ## Color Pickers
 - **NOTE** Picking the right colors so that humans can actually see the content is important!
@@ -72,4 +75,4 @@ I made a new Github to keep my studies notes and things located in one spot and 
 
 ### Simple projects so far
 - w006_robotBuddy: this little robot buddy made interactive with CSS
-- w008_landingPage: Going to make a simple landing page coming soon!
+- w008_landingPage: simple landing page with a subscribe button and a link to a mini gallery
