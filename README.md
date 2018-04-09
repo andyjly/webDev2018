@@ -40,6 +40,8 @@ I made a new Github to keep my studies notes and things located in one spot and 
 ## Javascript
 - Check up Eloquent JavaScript if you want to learn more!
 - curious about == and ===? read here: https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons
+- **NOTE TO SELF**: ADD SEMICOLONS AT THE END, good habit even if JS has Automatic Semicolon insertion
+	- better safe than sorry!
 
 
 ## Extras
