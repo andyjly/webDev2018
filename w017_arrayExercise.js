@@ -39,4 +39,4 @@ orangePos = array2.indexOf("Oranges")
 debug("6. " + orangePos)
 
 // since I already know the array I'll just grab directly
-debug(array2[1][1])
+debug(array2[1][1][0])
