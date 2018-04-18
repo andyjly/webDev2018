@@ -48,6 +48,8 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - curious about == and ===? read here: https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons
 - **NOTE TO SELF**: ADD SEMICOLONS AT THE END, good habit even if JS has Automatic Semicolon insertion
 	- better safe than sorry!
+- Here are some JS events: https://developer.mozilla.org/en-US/docs/Web/Events
+	- some things you might be familliar with is mouseover, mousemove etc...
 
 
 ## Extras
