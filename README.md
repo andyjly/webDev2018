@@ -38,6 +38,12 @@ I made a new Github to keep my studies notes and things located in one spot and 
 	- http://mashup-template.com/templates.html
 	
 ## Javascript
+- DOM: Document Object Model, something browser creates to allow us mod page
+	- can change all HTML elements, HTML attributes, and CSS in the page
+	- remove existing HTML elements and attributes
+	- add new HTML elements and attributes
+	- Can react to all existing HTML events in the page
+	- can create new HTML events in the page
 - Check up Eloquent JavaScript if you want to learn more!
 - curious about == and ===? read here: https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons
 - **NOTE TO SELF**: ADD SEMICOLONS AT THE END, good habit even if JS has Automatic Semicolon insertion
