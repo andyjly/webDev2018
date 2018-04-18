@@ -1,3 +1,4 @@
+
 /* Here's a sample how to use dom in js
 
 var button = document.getElementsByTagName("button")[0];
@@ -6,12 +7,43 @@ button.addEventListener("click", function(){
 	console.log("CLICKED!!!")
 })
 
+
+HERE"S THE ASSIGNMENT
+1. If you click on the list item, it toggles the .done class on and off.
+
+2. Add buttons next to each list item to delete the item when clicked on its corresponding delete button.
+
+3. BONUS: When adding a new list item, it automatically adds the delete button next to it. 
+
 */
 
 
 var button = document.getElementById("enter");
 var input = document.getElementById("userInput");
 var ul = document.querySelector("ul");
+
+var listItem = document.querySelectorAll("li");
+var deleteItem = document.querySelectorAll(".delete");
+
+// create a delete button
+function createDelete(parent){
+	var deleteButton = document.createElement("button");
+	deleteButton.appendChild(document.createTextNode("delete"));
+	deleteButton.className = "delete";
+	parent.appendChild(deleteButton);
+}
+
+function deleted(){
+	for(var i=0; i<deleteItem.length; i++){
+		deleteItem[i].addEventListener("click", function(){
+			this.parentNode.remove();
+		})
+	}
+}
+
+function addToggle(){
+	this.classList.toggle("done");
+}
 
 function inputLength(){
 	return input.value.length;
@@ -22,10 +54,29 @@ function createListElement(){
 	// console.log('Click is working!');
 		// Here we will create a new list object
 		var li = document.createElement("li");
+		// // Let's add our delete button here
+		// var deleteButton = document.createElement("button");
+		// deleteButton.appendChild(document.createTextNode("delete"));
+
 		// here to append child we need to add in some text
 		// li.appendChild(document.createTextNode("testing"));
 		li.appendChild(document.createTextNode(input.value));
+		// li.appendChild(deleteButton);
 		ul.appendChild(li);
+
+		li.addEventListener("click", addToggle);
+		createDelete(li);
+		deleteButton = document.querySelectorAll(".delete");
+		deleted()
+
+		// li.addEventListener("click", function changeClass(){
+		// 	this.classList.toggle("done");
+		// });
+
+		// deleteButton.addEventListener('click', () => {
+		// 	ul.removeChild(li);
+		// })
+
 		// Now we make input empty so it won't keep repeating
 		input.value = "";
 }
@@ -45,6 +96,17 @@ function addListAfterKeyPress(event){
 button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeyPress);
+
+
+for ( var i = 0 ; i < listItem.length; i++) {
+	listItem[i].addEventListener("click", addToggle);
+	createDelete(listItem[i]);
+	dlt = document.querySelectorAll(".delete");
+}
+
+deleted();
+
+
 
 /* Old code, our refactored version above!
 
