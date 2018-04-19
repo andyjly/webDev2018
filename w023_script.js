@@ -28,11 +28,12 @@ var deleteItem = document.querySelectorAll(".delete");
 // create a delete button
 function createDelete(parent){
 	var deleteButton = document.createElement("button");
-	deleteButton.appendChild(document.createTextNode("delete"));
+	deleteButton.appendChild(document.createTextNode("Remove"));
 	deleteButton.className = "delete";
 	parent.appendChild(deleteButton);
 }
 
+// delete functionality
 function deleted(){
 	for(var i=0; i<deleteItem.length; i++){
 		deleteItem[i].addEventListener("click", function(){
@@ -66,8 +67,8 @@ function createListElement(){
 
 		li.addEventListener("click", addToggle);
 		createDelete(li);
-		deleteButton = document.querySelectorAll(".delete");
-		deleted()
+		deleteItem = document.querySelectorAll(".delete");
+		deleted();
 
 		// li.addEventListener("click", function changeClass(){
 		// 	this.classList.toggle("done");
@@ -101,7 +102,7 @@ input.addEventListener("keypress", addListAfterKeyPress);
 for ( var i = 0 ; i < listItem.length; i++) {
 	listItem[i].addEventListener("click", addToggle);
 	createDelete(listItem[i]);
-	dlt = document.querySelectorAll(".delete");
+	deleteItem = document.querySelectorAll(".delete");
 }
 
 deleted();
