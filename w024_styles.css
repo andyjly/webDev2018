@@ -6,7 +6,7 @@ body{
 	letter-spacing: 0.5em;
 	top:  15%;
 	/* this allows a nice linear gradient */
-	background: linear-gradient(to right, lightsalmon, yellow);
+	background: linear-gradient(to right, lightsalmon, yellow, lightseagreen);
 }
 
 h1{

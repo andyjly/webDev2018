@@ -1,6 +1,9 @@
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
+// let's try add a 3rd color
+var color3 = document.querySelector(".color3");
+
 var body = document.getElementById("gradient")
 
 var randButton = document.createElement("button");
@@ -17,6 +20,8 @@ function setGradient(){
 							+ color1.value 
 							+ " ," 
 							+ color2.value 
+							+ " ,"
+							+ color3.value 
 							+ ")";
 	// This edits our text in our h3 telling us the gradient color
 	css.textContent = body.style.background + ";"
@@ -25,7 +30,9 @@ function setGradient(){
 function randomColor(){
 	var clr1 = getRandColor();
 	var clr2 = getRandColor();
-	body.style.background = "linear-gradient(to right, " + clr1 + " , " + clr2 + ")";
+	var clr3 = getRandColor();
+	body.style.background = "linear-gradient(to right, " + clr1 + " , " + clr2 
+	+ " , " + clr3 + ")";
 	css.textContent = body.style.background + ";";
 }
 
