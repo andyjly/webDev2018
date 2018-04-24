@@ -51,6 +51,14 @@ I made a new Github to keep my studies notes and things located in one spot and 
 - Here are some JS events: https://developer.mozilla.org/en-US/docs/Web/Events
 	- some things you might be familliar with is mouseover, mousemove etc...
 
+## JQuery
+- you can google it up yourself.
+- A JS library that is imperative: have to tell the program what to do one by one
+	- one action dependent on one action on another on another... 
+	- it introduces a lot of bugs
+
+## React JS
+- it is **declerative**
 
 ## Extras
 - free hd pictures you can download: https://unsplash.com/
@@ -92,3 +100,4 @@ I made a new Github to keep my studies notes and things located in one spot and 
 ### Simple projects so far
 - w006_robotBuddy: this little robot buddy made interactive with CSS
 - w008_landingPage: simple landing page with a subscribe button and a link to a mini gallery
+- w025_backgroundGenerator: simple gradient for backgrounds along with random button
