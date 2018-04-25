@@ -38,6 +38,9 @@ I made a new Github to keep my studies notes and things located in one spot and 
 	- http://mashup-template.com/templates.html
 	
 ## Javascript
+- ECMAScript === Javascript
+	- ES6 = EcmaScript6
+	- Babel is a JS compiler and it allows browsers to use new JS right away on any browser
 - DOM: Document Object Model, something browser creates to allow us mod page
 	- can change all HTML elements, HTML attributes, and CSS in the page
 	- remove existing HTML elements and attributes
