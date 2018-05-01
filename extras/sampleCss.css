@@ -1,0 +1,28 @@
+/* css id */
+#main-form {
+  color: #3c3c3c;
+}
+
+/* css class */
+.special {
+  color: #red;
+  font-size: 1.2em;
+}
+
+/* Center a block level element */
+.centered-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center an inline element */
+.centered-inline {
+  text-align: center;
+}
+
+/* display property: inline, block, inline-block */
+/* position: static, absolute, relative, fixed */
+/* float property ( float: left, float: right, clear: left, clear: right  ) 
+	never knew about the clear version before
+*/
+

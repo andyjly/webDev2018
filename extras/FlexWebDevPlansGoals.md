@@ -1,0 +1,10 @@
+- When will I spend time reading the curriculum?
+	- I'm most active after lunch time and later at night
+- When I run into difficulty, what are my options to get support?
+	- Currently mostly Google and StackOverflow is my default choice.
+	- There are Slack Communities that are willing to help out as well
+	- Can also consult with mentor 
+- When will I spend time practicing coding and building projects?
+	- Mostly after I eat and night time before I sleep.
+- Am I prepared to deal with unexpected demands on my time?
+	- I survived through college so I can.
